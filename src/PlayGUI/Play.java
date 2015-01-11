@@ -68,9 +68,9 @@ public class Play {
 				if(e.getSource() == buttons[0]){
 					buttons[0].setText("" +gameLogic.getAktivniIgrac());
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[0].setIcon(new ImageIcon(new URL("http://s16.postimg.org/nxadulgo1/image.jpg?noCache=1421006670")));
+						buttons[0].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[0].setIcon(new ImageIcon(new URL("http://s15.postimg.org/5s01jzclz/image.jpg?noCache=1421006683")));	
+						buttons[0].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					
 					gameLogic.odigrajPotez(0, 0);
 											
@@ -78,68 +78,68 @@ public class Play {
 				
 				if(e.getSource() == buttons[1]){
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[1].setIcon(new ImageIcon(new URL("http://s16.postimg.org/nxadulgo1/image.jpg?noCache=1421006670")));
+						buttons[1].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[1].setIcon(new ImageIcon(new URL("http://s15.postimg.org/5s01jzclz/image.jpg?noCache=1421006683")));	
+						buttons[1].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					
 					gameLogic.odigrajPotez(0, 1);
 				}
 			
 				if(e.getSource() == buttons[2]){
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[2].setIcon(new ImageIcon(new URL("http://s16.postimg.org/nxadulgo1/image.jpg?noCache=1421006670")));
+						buttons[2].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[2].setIcon(new ImageIcon(new URL("http://s15.postimg.org/5s01jzclz/image.jpg?noCache=1421006683")));	
+						buttons[2].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					
 					gameLogic.odigrajPotez(0, 2);
 				}
 			
 				if(e.getSource() == buttons[3]){
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[3].setIcon(new ImageIcon(new URL("http://s16.postimg.org/nxadulgo1/image.jpg?noCache=1421006670")));
+						buttons[3].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[3].setIcon(new ImageIcon(new URL("http://s15.postimg.org/5s01jzclz/image.jpg?noCache=1421006683")));	
+						buttons[3].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					
 					gameLogic.odigrajPotez(1, 0);
 				}
 				
 				if(e.getSource() == buttons[4]){
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[4].setIcon(new ImageIcon(new URL("http://s16.postimg.org/nxadulgo1/image.jpg?noCache=1421006670")));
+						buttons[4].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[4].setIcon(new ImageIcon(new URL("http://s15.postimg.org/5s01jzclz/image.jpg?noCache=1421006683")));	
+						buttons[4].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					gameLogic.odigrajPotez(1, 1);
 				}
 			
 				if(e.getSource() == buttons[5]){
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[5].setIcon(new ImageIcon(new URL("http://s16.postimg.org/nxadulgo1/image.jpg?noCache=1421006670")));
+						buttons[5].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[5].setIcon(new ImageIcon(new URL("http://s15.postimg.org/5s01jzclz/image.jpg?noCache=1421006683")));	
+						buttons[5].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					gameLogic.odigrajPotez(1, 2);
 				}
 			
 				if(e.getSource() == buttons[6]){
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[6].setIcon(new ImageIcon(new URL("http://s16.postimg.org/nxadulgo1/image.jpg?noCache=1421006670")));
+						buttons[6].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[6].setIcon(new ImageIcon(new URL("http://s15.postimg.org/5s01jzclz/image.jpg?noCache=1421006683")));	
+						buttons[6].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					gameLogic.odigrajPotez(2, 0);
 				}
 			
 				if(e.getSource() == buttons[7]){
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[7].setIcon(new ImageIcon(new URL("http://s16.postimg.org/nxadulgo1/image.jpg?noCache=1421006670")));
+						buttons[7].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[7].setIcon(new ImageIcon(new URL("http://s15.postimg.org/5s01jzclz/image.jpg?noCache=1421006683")));	
+						buttons[7].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					gameLogic.odigrajPotez(2, 1);
 				}
 				
 				if(e.getSource() == buttons[8]){
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[8].setIcon(new ImageIcon(new URL("http://s16.postimg.org/nxadulgo1/image.jpg?noCache=1421006670")));
+						buttons[8].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[8].setIcon(new ImageIcon(new URL("http://s15.postimg.org/5s01jzclz/image.jpg?noCache=1421006683")));	
+						buttons[8].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					gameLogic.odigrajPotez(2, 2);								
 				}	
 				
