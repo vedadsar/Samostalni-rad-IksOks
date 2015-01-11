@@ -25,8 +25,7 @@ public class Play {
 	
 	public static void main(String[] args) throws MalformedURLException {
 	
-		 gameLogic = new Igrica();
-		
+		gameLogic = new Igrica();
 		game = new JFrame();
 		buttons = new JButton[9];
 		game.setSize(450, 450);
@@ -66,80 +65,90 @@ public class Play {
 		public void actionPerformed(ActionEvent e) {
 			try {
 				if(e.getSource() == buttons[0]){
-					buttons[0].setText("" +gameLogic.getAktivniIgrac());
+					buttons[0].setEnabled(false);
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[0].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
+						buttons[0].setDisabledIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[0].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
-					
+						buttons[0].setDisabledIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
+				
 					gameLogic.odigrajPotez(0, 0);
 											
 				}
 				
 				if(e.getSource() == buttons[1]){
+					buttons[1].setEnabled(false);
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[1].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
+						buttons[1].setDisabledIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[1].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
-					
+						buttons[1].setDisabledIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
+				
 					gameLogic.odigrajPotez(0, 1);
 				}
 			
 				if(e.getSource() == buttons[2]){
+					buttons[2].setEnabled(false);
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[2].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
+						buttons[2].setDisabledIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[2].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
+						buttons[2].setDisabledIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					
 					gameLogic.odigrajPotez(0, 2);
 				}
 			
 				if(e.getSource() == buttons[3]){
+					buttons[3].setEnabled(false);
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[3].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
+						buttons[3].setDisabledIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[3].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
+						buttons[3].setDisabledIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					
 					gameLogic.odigrajPotez(1, 0);
 				}
 				
 				if(e.getSource() == buttons[4]){
+					buttons[4].setEnabled(false);
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[4].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
+						buttons[4].setDisabledIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[4].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
+						buttons[4].setDisabledIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					gameLogic.odigrajPotez(1, 1);
 				}
 			
 				if(e.getSource() == buttons[5]){
+					buttons[5].setEnabled(false);
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[5].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
+						buttons[5].setDisabledIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[5].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
+						buttons[5].setDisabledIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
+					
 					gameLogic.odigrajPotez(1, 2);
 				}
 			
 				if(e.getSource() == buttons[6]){
+					buttons[6].setEnabled(false);
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[6].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
+						buttons[6].setDisabledIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[6].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
+						buttons[6].setDisabledIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
+					
 					gameLogic.odigrajPotez(2, 0);
 				}
 			
 				if(e.getSource() == buttons[7]){
+					buttons[7].setEnabled(false);
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[7].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
+						buttons[7].setDisabledIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[7].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
+						buttons[7].setDisabledIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					gameLogic.odigrajPotez(2, 1);
 				}
 				
 				if(e.getSource() == buttons[8]){
+					buttons[8].setEnabled(false);
 					if(gameLogic.getAktivniIgrac() == -1)
-						buttons[8].setIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
+						buttons[8].setDisabledIcon(new ImageIcon(new URL("http://s27.postimg.org/nv7x07bm7/image.jpg?noCache=1421008196")));
 					else
-						buttons[8].setIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
+						buttons[8].setDisabledIcon(new ImageIcon(new URL("http://s10.postimg.org/g9r0ubu85/image.jpg?noCache=1421008321")));	
 					gameLogic.odigrajPotez(2, 2);								
 				}	
 				
